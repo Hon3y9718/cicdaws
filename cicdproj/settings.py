@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
+    'whitenoise.runserver_nostatic', # Make sure to add for CI/CD
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
